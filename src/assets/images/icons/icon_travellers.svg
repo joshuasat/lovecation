@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-icon_travellers">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="icon_travellers" clip-path="url(#clip-icon_travellers)">
+    <g id="icon_travellers-2" data-name="icon_travellers">
+      <rect id="box" width="48" height="48" fill="none"/>
+      <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(0 13)" fill="none" stroke="#152c5b" stroke-width="3">
+        <rect width="28" height="35" rx="8" stroke="none"/>
+        <rect x="1.5" y="1.5" width="25" height="32" rx="6.5" fill="none"/>
+      </g>
+      <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(7)" fill="none" stroke="#152c5b" stroke-width="3">
+        <path d="M4,0h6a4,4,0,0,1,4,4V16a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" stroke="none"/>
+        <path d="M4,1.5h6A2.5,2.5,0,0,1,12.5,4v9A1.5,1.5,0,0,1,11,14.5H3A1.5,1.5,0,0,1,1.5,13V4A2.5,2.5,0,0,1,4,1.5Z" fill="none"/>
+      </g>
+      <path id="Path_1" data-name="Path 1" d="M17-75.068c-.015,18.665,0,18.5,0,18.5" transform="translate(-9 96)" fill="none" stroke="#3252df" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_2" data-name="Path 2" d="M17-75.068c-.015,18.665,0,18.5,0,18.5" transform="translate(3 96)" fill="none" stroke="#3252df" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_3" data-name="Path 3" d="M17-75.068c-.015,8.071,0,8,0,8" transform="translate(-3 101)" fill="none" stroke="#3252df" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
