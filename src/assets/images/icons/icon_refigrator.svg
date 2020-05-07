@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-icon_refigrator">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="icon_refigrator" clip-path="url(#clip-icon_refigrator)">
+    <g id="icon_refigrator-2" data-name="icon_refigrator">
+      <rect id="box" width="48" height="48" fill="none"/>
+      <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(39) rotate(90)" fill="none" stroke="#152c5b" stroke-width="3">
+        <rect width="48" height="30" rx="4" stroke="none"/>
+        <rect x="1.5" y="1.5" width="45" height="27" rx="2.5" fill="none"/>
+      </g>
+      <path id="Path_3" data-name="Path 3" d="M.006,0c-.015,44.393,0,44,0,44" transform="translate(17.804 46.006) rotate(180)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_3-2" data-name="Path 3" d="M17-67.068c-.015-8.071,0-8,0-8" transform="translate(49.497 -46.577) rotate(180)" fill="none" stroke="#3252df" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

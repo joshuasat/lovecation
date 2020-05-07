@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-icon_diningroom">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="icon_diningroom" clip-path="url(#clip-icon_diningroom)">
+    <g id="icon_diningroom-2" data-name="icon_diningroom">
+      <rect id="box" width="48" height="48" fill="none"/>
+      <path id="Path_6" data-name="Path 6" d="M17-75.068c-.015,6.054,0,6,0,6" transform="translate(-3 87)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_12" data-name="Path 12" d="M17-75.068c-.015,6.054,0,6,0,6" transform="translate(17 87)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <g id="Rectangle_16" data-name="Rectangle 16" transform="translate(18 3) rotate(90)" fill="none" stroke="#3252df" stroke-width="3">
+        <path d="M.8,0H6a4,4,0,0,1,4,4V4A4,4,0,0,1,6,8H.8A.8.8,0,0,1,0,7.2V.8A.8.8,0,0,1,.8,0Z" stroke="none"/>
+        <path d="M1.857,1.5H6A2.5,2.5,0,0,1,8.5,4V4A2.5,2.5,0,0,1,6,6.5H1.857A.357.357,0,0,1,1.5,6.143V1.857A.357.357,0,0,1,1.857,1.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_17" data-name="Rectangle 17" transform="translate(38 3) rotate(90)" fill="none" stroke="#3252df" stroke-width="3">
+        <path d="M.8,0H6a4,4,0,0,1,4,4V4A4,4,0,0,1,6,8H.8A.8.8,0,0,1,0,7.2V.8A.8.8,0,0,1,.8,0Z" stroke="none"/>
+        <path d="M1.857,1.5H6A2.5,2.5,0,0,1,8.5,4V4A2.5,2.5,0,0,1,6,6.5H1.857A.357.357,0,0,1,1.5,6.143V1.857A.357.357,0,0,1,1.857,1.5Z" fill="none"/>
+      </g>
+      <g id="Path_11" data-name="Path 11" transform="translate(0 16.463)" fill="none">
+        <path d="M6,0H42l6,12H0Z" stroke="none"/>
+        <path d="M 7.854099273681641 3 L 4.854099273681641 9 L 43.14590072631836 9 L 40.14590072631836 3 L 7.854099273681641 3 M 6 0 L 42 0 L 48 12 L 0 12 L 6 0 Z" stroke="none" fill="#152c5b"/>
+      </g>
+      <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(12 26) rotate(90)" fill="none" stroke="#152c5b" stroke-width="3">
+        <path d="M.7,0H15.5A3.5,3.5,0,0,1,19,3.5v0A3.5,3.5,0,0,1,15.5,7H.7A.7.7,0,0,1,0,6.3V.7A.7.7,0,0,1,.7,0Z" stroke="none"/>
+        <path d="M1.786,1.5H15.5a2,2,0,0,1,2,2v0a2,2,0,0,1-2,2H1.786A.286.286,0,0,1,1.5,5.214V1.786A.286.286,0,0,1,1.786,1.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(43 26) rotate(90)" fill="none" stroke="#152c5b" stroke-width="3">
+        <path d="M.7,0H15.5A3.5,3.5,0,0,1,19,3.5v0A3.5,3.5,0,0,1,15.5,7H.7A.7.7,0,0,1,0,6.3V.7A.7.7,0,0,1,.7,0Z" stroke="none"/>
+        <path d="M1.786,1.5H15.5a2,2,0,0,1,2,2v0a2,2,0,0,1-2,2H1.786A.286.286,0,0,1,1.5,5.214V1.786A.286.286,0,0,1,1.786,1.5Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

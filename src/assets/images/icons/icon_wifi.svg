@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-icon_wifi">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="icon_wifi" clip-path="url(#clip-icon_wifi)">
+    <g id="icon_wifi-2" data-name="icon_wifi">
+      <rect id="box" width="48" height="48" fill="none"/>
+      <g id="Path_16" data-name="Path 16" transform="translate(18 34)" fill="#fff">
+        <path d="M 6 10.5 C 3.51869010925293 10.5 1.5 8.48130989074707 1.5 6 C 1.5 3.51869010925293 3.51869010925293 1.5 6 1.5 C 8.48130989074707 1.5 10.5 3.51869010925293 10.5 6 C 10.5 8.48130989074707 8.48130989074707 10.5 6 10.5 Z" stroke="none"/>
+        <path d="M 6 3 C 4.345789909362793 3 3 4.345789909362793 3 6 C 3 7.654210090637207 4.345789909362793 9 6 9 C 7.654210090637207 9 9 7.654210090637207 9 6 C 9 4.345789909362793 7.654210090637207 3 6 3 M 6 0 C 9.31371021270752 0 12 2.68628978729248 12 6 C 12 9.31371021270752 9.31371021270752 12 6 12 C 2.68628978729248 12 0 9.31371021270752 0 6 C 0 2.68628978729248 2.68628978729248 0 6 0 Z" stroke="none" fill="#3252df"/>
+      </g>
+      <path id="Path_13" data-name="Path 13" d="M0,0,6.215-2.614l4.31-.976,4.751-.526,4.376.526L24-2.614,30.981,0" transform="translate(8.5 22.5)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_15" data-name="Path 15" d="M0,0,7.6-3.751l6.178-1.583,5.541-.52,5.608.52,5.162,1.583L38.958,0" transform="translate(4.5 13.5)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_14" data-name="Path 14" d="M0,.886,4.636-1.193l6.127-1.086,6.585.855,5.611,2.1" transform="translate(12.5 30.5)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

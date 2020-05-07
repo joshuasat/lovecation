@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-icon_ac">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="icon_ac" clip-path="url(#clip-icon_ac)">
+    <g id="icon_ac-2" data-name="icon_ac">
+      <rect id="box" width="48" height="48" fill="none"/>
+      <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(0 4)" fill="none" stroke="#152c5b" stroke-width="3">
+        <rect width="48" height="22" rx="4" stroke="none"/>
+        <rect x="1.5" y="1.5" width="45" height="19" rx="2.5" fill="none"/>
+      </g>
+      <path id="Path_3" data-name="Path 3" d="M17-75.4a13.77,13.77,0,0,1,2.886,4.858,17.258,17.258,0,0,1,.6,2.7c.15,2.478-1.406,3.745-2.147,5.031A5.009,5.009,0,0,1,17-61.068" transform="translate(-9 104)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_18" data-name="Path 18" d="M20.5-75.4a13.77,13.77,0,0,0-2.886,4.858,17.258,17.258,0,0,0-.6,2.7c-.15,2.478,1.406,3.745,2.147,5.031a5.009,5.009,0,0,0,1.34,1.741" transform="translate(20 104)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_17" data-name="Path 17" d="M17-75.4a13.77,13.77,0,0,1,2.886,4.858,17.258,17.258,0,0,1,.6,2.7c.15,2.478-1.406,3.745-2.147,5.031A5.009,5.009,0,0,1,17-61.068" transform="translate(-2 104)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_19" data-name="Path 19" d="M20.5-75.4a13.77,13.77,0,0,0-2.886,4.858,17.258,17.258,0,0,0-.6,2.7c-.15,2.478,1.406,3.745,2.147,5.031a5.009,5.009,0,0,0,1.34,1.741" transform="translate(13 104)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_3-2" data-name="Path 3" d="M17-31.068c-.015-44.393,0-44,0-44" transform="translate(-29.074 2.494) rotate(90)" fill="none" stroke="#152c5b" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_3-3" data-name="Path 3" d="M17-67.068c-.015-8.071,0-8,0-8" transform="translate(-46.568 -4.506) rotate(90)" fill="none" stroke="#3252df" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
