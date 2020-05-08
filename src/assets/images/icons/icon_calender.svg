@@ -5,7 +5,6 @@
     </clipPath>
   </defs>
   <g id="icon_calender" clip-path="url(#clip-icon_calender)">
-    <rect width="27" height="27" fill="#bcc3d1"/>
     <g id="icon_calender-2" data-name="icon_calender" transform="translate(0.563 -2.519)">
       <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(0.437 5.519)" fill="none" stroke="#fff" stroke-width="2">
         <rect width="25" height="22" rx="4" stroke="none"/>
