@@ -5,20 +5,20 @@
   "imageUrls": [
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/Mask Group 8.jpg"
+      "url": "/images/Mask Group 8@2x.jpg"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/Mask Group 9.jpg"
+      "url": "/images/Mask Group 9@2x.jpg"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/Mask Group 10.jpg"
+      "url": "/images/Mask Group 10@2x.jpg"
     }
   ],
   "country": "Italy",
   "city": "Genoa",
-  "price": "52",
+  "price": "320",
   "unit": "night",
   "isPopular": true,
   "hasBackyard": true,
