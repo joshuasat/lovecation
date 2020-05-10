@@ -110,7 +110,7 @@ class BookingForm extends Component {
           hasShadow
           isPrimary
           isBlock
-          onClick={this.startBooking}
+          onClick={startBooking}
         >
           Book Now
         </Button>
