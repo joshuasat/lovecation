@@ -60,7 +60,7 @@ export default function Footer() {
                 <Button
                   isExternal
                   type="link"
-                  href="mailto:support@staycation.id"
+                  href="mailto:support@lovecation.id"
                 >
                   support@lovecation.id
                 </Button>
