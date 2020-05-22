@@ -10,13 +10,14 @@ export default class NotFound extends Component {
           style={{ height: "100vh" }}
         >
           <div className="col-3">
-            In Developing Process
+            In Development Process
             <div>
               <Button
                 className="btn mt-5"
                 type="button"
                 onClick={() => this.props.history.goBack()}
                 isLight
+                isBlock
               >
                 Back To Home
               </Button>
