@@ -248,3 +248,18 @@ main {
     font-weight: 300;
   }
 }
+
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+
+  background-color: $white;
+}
+
+.info-panel {
+  img {
+    margin-top: 5px;
+    width: 36px;
+    height: 36px;
+  }
+}

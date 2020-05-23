@@ -18,7 +18,7 @@ export default function Hero(props) {
 
   return (
     <Fade bottom>
-      <section className="container pt-4">
+      <section className="d-none d-lg-block container pt-4">
         <div className="row align-items-center">
           <div className="col-auto pr-5" style={{ width: 550 }}>
             <h1 className="font-weight-bold line-height-1 mb-3">
@@ -104,6 +104,87 @@ export default function Hero(props) {
             </div>
           </div>
         </div>
+      </section>
+
+      <section
+        className="container d-block d-lg-none"
+        style={{ marginTop: -20, marginBottom: 90 }}
+      >
+        <Fade bottom>
+          <div className="row align-items-center">
+            <div className="col-12  text-center">
+              <h1 className=" h3 font-weight-bold line-height-1 mb-3">
+                Forget Busy Work, <br />
+                Start Vacation With Lover
+              </h1>
+              <p
+                className="mb-3 font-weight-light text-gray-500 "
+                style={{ lineHeight: "170%" }}
+              >
+                We provide what you need to enjoy your holiday with your lover.
+                Time to make another memorable moment.
+              </p>
+              <Button
+                className="btn px-5"
+                hasShadow
+                isPrimary
+                onClick={showMostPicked}
+              >
+                Show Me Now
+              </Button>
+
+              <div className="col-sm-6 info-panel">
+                <div
+                  className="row justify-content-center"
+                  style={{ marginTop: 80 }}
+                >
+                  <div className="col-auto " style={{ marginRight: 35 }}>
+                    <img
+                      width="36"
+                      height="36"
+                      src="/images/icon_travellers.svg"
+                      alt={`${props.data.travelers} Travelers`}
+                    />
+                    <h6 className="mt-3">
+                      {formatNumber(props.data.travelers)}{" "}
+                      <span className="text-gray-500 font-weight-light">
+                        travelers
+                      </span>
+                    </h6>
+                  </div>
+                  <div className="col-auto" style={{ marginRight: 35 }}>
+                    <img
+                      width="36"
+                      height="36"
+                      src="/images/icon_treasure.svg"
+                      alt={`${props.data.treasures} Treasures`}
+                    />
+                    <h6 className="mt-3">
+                      {formatNumber(props.data.treasures)}{" "}
+                      <span className="text-gray-500 font-weight-light">
+                        treasures
+                      </span>
+                    </h6>
+                  </div>
+                  <div className="col-auto">
+                    <img
+                      width="36"
+                      height="36"
+                      src="/images/icon_cities.svg"
+                      alt={`${props.data.cities} Cities`}
+                    />
+                    <h6 className="mt-3">
+                      {formatNumber(props.data.cities)}{" "}
+                      <span className="text-gray-500 font-weight-light">
+                        cities
+                      </span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Fade>
       </section>
     </Fade>
   );
