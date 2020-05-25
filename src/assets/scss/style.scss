@@ -254,10 +254,12 @@ main {
   border-radius: 12px;
 
   background-color: $white;
-}
+  padding: 20px;
 
-.info-panel {
   img {
-    margin-top: 5px;
+    width: 45px;
+    height: 45px;
+    margin-right: -90px;
+    margin-bottom: 20px;
   }
 }

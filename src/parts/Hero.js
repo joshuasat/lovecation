@@ -108,7 +108,7 @@ export default function Hero(props) {
 
       <section
         className="container d-block d-lg-none"
-        style={{ marginTop: -20, marginBottom: 90 }}
+        style={{ marginTop: -20, marginBottom: 50 }}
       >
         <Fade bottom>
           <div className="row align-items-center">
@@ -133,52 +133,53 @@ export default function Hero(props) {
                 Show Me Now
               </Button>
 
-              <div className="col-12 info-panel">
+              <div className="container pb-5">
                 <div
                   className="row justify-content-center"
                   style={{ marginTop: 80 }}
                 >
-                  <div className="col-auto " style={{ marginRight: 35 }}>
-                    <img
-                      width="36"
-                      height="36"
-                      src="/images/icon_travellers.svg"
-                      alt={`${props.data.travelers} Travelers`}
-                    />
-                    <h6 className="mt-3">
-                      {formatNumber(props.data.travelers)}{" "}
-                      <span className="text-gray-500 font-weight-light">
-                        travelers
-                      </span>
-                    </h6>
-                  </div>
-                  <div className="col-auto" style={{ marginRight: 35 }}>
-                    <img
-                      width="36"
-                      height="36"
-                      src="/images/icon_treasure.svg"
-                      alt={`${props.data.treasures} Treasures`}
-                    />
-                    <h6 className="mt-3">
-                      {formatNumber(props.data.treasures)}{" "}
-                      <span className="text-gray-500 font-weight-light">
-                        treasures
-                      </span>
-                    </h6>
-                  </div>
-                  <div className="col-auto">
-                    <img
-                      width="36"
-                      height="36"
-                      src="/images/icon_cities.svg"
-                      alt={`${props.data.cities} Cities`}
-                    />
-                    <h6 className="mt-3">
-                      {formatNumber(props.data.cities)}{" "}
-                      <span className="text-gray-500 font-weight-light">
-                        cities
-                      </span>
-                    </h6>
+                  <div className="col-10 info-panel">
+                    <div className="row">
+                      <div className="col-lg">
+                        <img
+                          src="/images/icon_travellers.svg"
+                          className="float-left"
+                          alt={`${props.data.travelers} Travelers`}
+                        />
+                        <h6 className="mt-3" style={{ marginLeft: 30 }}>
+                          {formatNumber(props.data.travelers)}{" "}
+                          <span className="text-gray-500 font-weight-light">
+                            Satisfied Travelers Around the World
+                          </span>
+                        </h6>
+                      </div>
+                      <div className="col-lg">
+                        <img
+                          src="/images/icon_treasure.svg"
+                          className="float-left"
+                          alt={`${props.data.treasures} Treasures`}
+                        />
+                        <h6 className="mt-3" style={{ marginLeft: 30 }}>
+                          {formatNumber(props.data.treasures)}{" "}
+                          <span className="text-gray-500 font-weight-light">
+                            Amazing and Beauty Treasures
+                          </span>
+                        </h6>
+                      </div>
+                      <div className="col-lg">
+                        <img
+                          src="/images/icon_cities.svg"
+                          className="float-left"
+                          alt={`${props.data.cities} Cities`}
+                        />
+                        <h6 className="mt-3" style={{ marginLeft: 20 }}>
+                          {formatNumber(props.data.cities)}{" "}
+                          <span className="text-gray-500 font-weight-light">
+                            Beauty Cities Around the World
+                          </span>
+                        </h6>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
