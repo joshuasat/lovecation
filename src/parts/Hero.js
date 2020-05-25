@@ -52,7 +52,7 @@ export default function Hero(props) {
                 <h6 className="mt-3">
                   {formatNumber(props.data.travelers)}{" "}
                   <span className="text-gray-500 font-weight-light">
-                    travelers
+                    Travelers
                   </span>
                 </h6>
               </div>
@@ -66,7 +66,7 @@ export default function Hero(props) {
                 <h6 className="mt-3">
                   {formatNumber(props.data.treasures)}{" "}
                   <span className="text-gray-500 font-weight-light">
-                    treasures
+                    Treasures
                   </span>
                 </h6>
               </div>
@@ -80,7 +80,7 @@ export default function Hero(props) {
                 <h6 className="mt-3">
                   {formatNumber(props.data.cities)}{" "}
                   <span className="text-gray-500 font-weight-light">
-                    cities
+                    Cities
                   </span>
                 </h6>
               </div>
