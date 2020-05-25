@@ -108,7 +108,7 @@ export default function Hero(props) {
 
       <section
         className="container d-block d-lg-none"
-        style={{ marginTop: -20, marginBottom: 50 }}
+        style={{ marginTop: -20, marginBottom: 40 }}
       >
         <Fade bottom>
           <div className="row align-items-center">
@@ -136,7 +136,7 @@ export default function Hero(props) {
               <div className="container pb-5">
                 <div
                   className="row justify-content-center"
-                  style={{ marginTop: 80 }}
+                  style={{ marginTop: 70 }}
                 >
                   <div className="col-12 info-panel">
                     <div className="row">
