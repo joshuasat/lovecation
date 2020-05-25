@@ -138,7 +138,7 @@ export default function Hero(props) {
                   className="row justify-content-center"
                   style={{ marginTop: 80 }}
                 >
-                  <div className="col-10 info-panel">
+                  <div className="col-12 info-panel">
                     <div className="row">
                       <div className="col-lg">
                         <img
@@ -159,7 +159,7 @@ export default function Hero(props) {
                           className="float-left"
                           alt={`${props.data.treasures} Treasures`}
                         />
-                        <h6 className="mt-3" style={{ marginLeft: 30 }}>
+                        <h6 className="mt-3" style={{ marginLeft: 40 }}>
                           {formatNumber(props.data.treasures)}{" "}
                           <span className="text-gray-500 font-weight-light">
                             Amazing and Beauty Treasures
@@ -172,7 +172,7 @@ export default function Hero(props) {
                           className="float-left"
                           alt={`${props.data.cities} Cities`}
                         />
-                        <h6 className="mt-3" style={{ marginLeft: 20 }}>
+                        <h6 className="mt-3" style={{ marginLeft: 40 }}>
                           {formatNumber(props.data.cities)}{" "}
                           <span className="text-gray-500 font-weight-light">
                             Beauty Cities Around the World
