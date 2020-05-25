@@ -43,12 +43,26 @@ class DetailsPage extends Component {
         <FeaturedImage data={page[match.params.id].imageId} />
         <section className="container">
           <div className="row">
-            <div className="col-7 pr-5">
+            <div className="col-7 pr-5 d-none d-lg-block">
               <Fade bottom>
                 <PageDetailDescription data={page[match.params.id]} />
               </Fade>
             </div>
-            <div className="col-5">
+            <div className="col-5 d-none d-lg-block">
+              <Fade bottom>
+                <BookingForm
+                  itemDetails={page[match.params.id]}
+                  startBooking={this.props.checkoutBooking}
+                />
+              </Fade>
+            </div>
+
+            <div className="col-12 d-block d-lg-none">
+              <Fade bottom>
+                <PageDetailDescription data={page[match.params.id]} />
+              </Fade>
+            </div>
+            <div className="col-12 d-block d-lg-none">
               <Fade bottom>
                 <BookingForm
                   itemDetails={page[match.params.id]}

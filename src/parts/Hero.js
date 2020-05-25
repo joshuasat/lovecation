@@ -133,7 +133,7 @@ export default function Hero(props) {
                 Show Me Now
               </Button>
 
-              <div className="col-sm-6 info-panel">
+              <div className="col-12 info-panel">
                 <div
                   className="row justify-content-center"
                   style={{ marginTop: 80 }}

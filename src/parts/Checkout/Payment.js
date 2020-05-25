@@ -15,11 +15,11 @@ export default function Payment(props) {
 
   return (
     <Fade>
-      <div className="container" style={{ marginBottom: 30 }}>
+      <div className="container d-none d-md-block" style={{ marginBottom: 30 }}>
         <div className="row justify-content-center align-items-center">
           <div className="col-5 border-right py-5" style={{ paddingRight: 80 }}>
             <Fade delay={300}>
-              <p className="mb-4">Transfer Pembayaran:</p>
+              <p className="mb-4 font-weight-bold">Transfer Pembayaran:</p>
               <p>Tax: {tax}%</p>
               <p>Sub total: ${subTotal} USD</p>
               <p>Total: ${grandTotal} USD</p>
@@ -30,7 +30,7 @@ export default function Payment(props) {
                 <div className="col">
                   <dl>
                     <dd>Bank Central Asia</dd>
-                    <dd>2208 1996</dd>
+                    <dd>1312 2002</dd>
                     <dd>Joshua SatyaLaksana</dd>
                   </dl>
                 </div>
@@ -43,7 +43,7 @@ export default function Payment(props) {
                 <div className="col">
                   <dl>
                     <dd>Bank BTPN</dd>
-                    <dd>2208 1996</dd>
+                    <dd>1312 2002</dd>
                     <dd>Joshua SatyaLaksana</dd>
                   </dl>
                 </div>
@@ -51,6 +51,79 @@ export default function Payment(props) {
             </Fade>
           </div>
           <div className="col-5 py-5" style={{ paddingLeft: 80 }}>
+            <Fade delay={600}>
+              <label htmlFor="proofPayment">Upload Bukti Transfer</label>
+              <InputFile
+                accept="image/*"
+                id="proofPayment"
+                name="proofPayment"
+                value={data.proofPayment}
+                onChange={props.onChange}
+              />
+
+              <label htmlFor="bankName">Asal Bank</label>
+              <InputText
+                id="bankName"
+                name="bankName"
+                type="text"
+                value={data.bankName}
+                onChange={props.onChange}
+              />
+
+              <label htmlFor="bankHolder">Nama Pengirim</label>
+              <InputText
+                id="bankHolder"
+                name="bankHolder"
+                type="text"
+                value={data.bankHolder}
+                onChange={props.onChange}
+              />
+            </Fade>
+          </div>
+        </div>
+      </div>
+
+      <div className="container d-block d-md-none">
+        <Fade delay={300}>
+          <div className="row justify-content-start">
+            <div className="col-auto">
+              <p className="mb-2 font-weight-bold">Transfer Pembayaran:</p>
+              <p>Tax: {tax}%</p>
+              <p>Sub total: ${subTotal} USD</p>
+              <p>Total: ${grandTotal} USD</p>
+            </div>
+          </div>
+        </Fade>
+
+        <div className="row">
+          <Fade delay={400}>
+            <div className="col-12 mt-4">
+              <p className="font-weight-bold">Ke Rekening:</p>
+            </div>
+            <div className="col-3 text-right">
+              <img src={logoBca} alt="bank central asia" width="60" />
+            </div>
+            <div className="col-9">
+              <dl>
+                <dd>Bank Central Asia</dd>
+                <dd>1312 2002</dd>
+                <dd>Joshua SatyaLaksana</dd>
+              </dl>
+            </div>
+
+            <div className="col-3 text-right">
+              <img src={logoJenius} alt="mandiri" width="60" />
+            </div>
+            <div className="col-9">
+              <dl>
+                <dd>Bank BTPN</dd>
+                <dd>1312 2002</dd>
+                <dd>Joshua SatyaLaksana</dd>
+              </dl>
+            </div>
+          </Fade>
+
+          <div className="col-12 mt-5">
             <Fade delay={600}>
               <label htmlFor="proofPayment">Upload Bukti Transfer</label>
               <InputFile
